@@ -1,6 +1,14 @@
 {
     "configurations": [
         {
+            "name": "Python: bieżący plik",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
             "name": "Python: dołączanie zdalne",
             "type": "python",
             "request": "attach",
